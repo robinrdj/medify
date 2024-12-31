@@ -1,0 +1,84 @@
+.slot__selector {
+  max-width: 400px;
+  margin: auto;
+}
+
+.date__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav__button {
+  background-color: #2aa8ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav__button:hover {
+  background-color: #1b3c74;
+}
+
+.date__item {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.date__item.active {
+  border-color: blue;
+}
+
+.date__label {
+  font-weight: bold;
+}
+
+.date__slots {
+  color: green;
+  font-size: 12px;
+}
+
+.time__slots {
+  margin-top: 20px;
+}
+
+.time__period {
+  margin-bottom: 15px;
+}
+
+.period__title {
+  margin-bottom: 10px;
+}
+
+.slots__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.slot__button {
+  padding: 10px 15px;
+  border: 1px solid #2aa8ff;
+  border-radius: 5px;
+  background-color: white;
+  color: #2aa8ff;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.slot__button:hover {
+  background-color: #2aa8ff;
+  color: white;
+}
+
+.slot__button.selected {
+  background-color: #2aa8ff;
+  color: white;
+}

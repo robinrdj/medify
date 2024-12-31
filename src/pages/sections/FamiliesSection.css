@@ -1,0 +1,83 @@
+.families__section {
+  background-color: #f5faff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.families__content {
+  max-width: 50%;
+}
+
+.families__content h3 {
+  color: #2AA8FF;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.families__content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+  color:  #1B3C74;
+}
+
+.families__content p {
+  font-size: 16px;
+  color: gray;
+  line-height: 1.8;
+}
+
+.families__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.families__card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.families__card h2 {
+  font-size: 28px;
+  color:  #1B3C74;
+  margin-bottom: 10px;
+}
+
+.families_icons {
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.families__card h3 {
+  font-size: 16px;
+  color:gray;
+}
+
+.families_icon1 {
+  color: rgb(42, 167, 255);
+  background-color: rgb(235, 247, 255);
+}
+.families_icon2 {
+  background-color: rgb(255, 242, 240);
+  color: rgb(255, 121, 96);
+}
+.families_icon3 {
+  background-color: rgb(255, 247, 230);
+  color: rgb(255, 178, 0);
+}
+.families_icon4 {
+  background-color: rgb(235, 250, 241);
+  color: rgb(76, 208, 128);
+}
+
+.families__card__right {
+  position: relative;
+  top: 30px;
+}

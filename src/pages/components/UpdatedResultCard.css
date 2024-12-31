@@ -1,0 +1,125 @@
+.resultCard {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  max-width: 800px;
+  width: 100%;
+}
+
+.availability {
+  color: green;
+  font-weight: bold;
+}
+
+.hospital__fee {
+}
+
+.fee {
+  font-size: 16px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.original__fee {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 10px;
+}
+
+.expanded {
+  border: 2px solid #1b3c74;
+}
+
+.resultCard__left {
+  width: 20%;
+}
+
+.resultCard__middle {
+  text-align: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.resultCard__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+.resultCard__button {
+  background-color: #2aa8ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resultCard__img img {
+  width: 60px;
+  height: 60px;
+  padding: auto;
+  margin-top: 15px;
+}
+
+.resultCard__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #2aa8ff;
+  text-align: center;
+}
+
+.resultCard__rating {
+  margin-top: 5px;
+  display: flex;
+  border: 1px solid none;
+  background-color: #00a500;
+  border-radius: 5px;
+  width: 45px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.resultCard__rating span {
+  font-size: 18px;
+}
+
+.hospital__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.hospital__name {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #2aa8ff;
+}
+
+.hospital__location {
+  color: black;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.hospital__description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  color: #414146;
+}

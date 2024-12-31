@@ -1,0 +1,85 @@
+.search__top {
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  width: 80%;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  top: 50px;
+}
+
+.search__inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 50px;
+}
+
+.search__input__field {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search__button {
+  padding: 10px 20px;
+  background-color: #2aa8ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search__categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search__categories__item {
+  width: 120px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search__categories__item img {
+  width: 40px;
+  height: 40px;
+  background-color: #2aa8ff;
+}
+
+.search__categories__item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #abb6c7;
+}
+.search h3 {
+  color: #102851;
+  margin-bottom: 60px;
+}
+
+.medicalCenter__card {
+  width: 60%;
+}
+.fixedCard {
+  position: sticky;
+  z-index: 100;
+  left: 5%;
+}
+
+.searchResultContent {
+  display: flex;
+}
+
+.fixedCard__Wrapper {
+  position: relative;
+  left: 5%;
+}

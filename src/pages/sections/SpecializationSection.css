@@ -1,0 +1,49 @@
+.specialization {
+  margin: 0px auto;
+  padding: 5% 10%;
+  text-align: center;
+  background: linear-gradient(#e7f0ff, #e8f1ff78);
+}
+
+.specialization__title {
+  margin-bottom: 20px;
+  color: #1b3c74;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: center;
+}
+
+.specialization__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.specialization__card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 34px 44px 0px #d5dbe470;
+}
+
+.specialization__card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.specialization__icon {
+  margin-bottom: 10px;
+}
+
+.specialization__button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2aa8ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
