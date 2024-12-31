@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 import FooterSection from './sections/FooterSection';
 import DownloadSection from './sections/DownloadSection';
@@ -14,15 +14,13 @@ import HeroSection from './sections/HeroSection';
 import SwiperSection from "./sections/SwiperSection";
 
 
-const HomePage = ({ history }) => {
-  const [state, setState] = useState("");
-  const [city, setCity] = useState("");
+const HomePage = () => {
 
   return (
     <div>
       <NavbarSection />
       <HeroSection />
-      <SearchSection state={state} city={city}/>
+      <SearchSection/>
       <SwiperSection />
       <SpecializationSection />
       <MedicalSpecialistSection />
