@@ -21,6 +21,7 @@ const HomePage = () => {
       <NavbarSection />
       <HeroSection />
       <SearchSection/>
+      <p>hi</p>
       <SwiperSection />
       <SpecializationSection />
       <MedicalSpecialistSection />
