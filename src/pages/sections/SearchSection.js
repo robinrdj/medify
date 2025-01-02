@@ -11,7 +11,7 @@ const SearchSection = () => {
 
   const statesUrl = "https://meddata-backend.onrender.com/states";
 
-  async function setAllStates(country){
+  async function setAllStates(){
     try{
       const res = await axios.get(statesUrl);
       setStates(res.data);
@@ -53,7 +53,7 @@ const SearchSection = () => {
 
   return (
     <div className="search">
-      <div className="search__inputs">
+      {/* <div className="search__inputs">
      <select value={state} onChange={handleStateChange} className="search__input__field" >
       <option value="">Select State</option>
         {states.map((item)=>{
@@ -92,7 +92,8 @@ const SearchSection = () => {
           <FaAmbulance size={40} color="#2AA8FF" />
           <p>Ambulance</p>
         </div>
-      </div>
+      </div> */}
+      changes have been made
     </div>
   );
 };
