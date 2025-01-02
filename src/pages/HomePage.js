@@ -12,7 +12,7 @@ import SearchSection from './sections/SearchSection';
 import SpecializationSection from './sections/SpecializationSection';
 import HeroSection from './sections/HeroSection';
 import SwiperSection from "./sections/SwiperSection";
-
+import SearchPageSearchSection from './sections/SearchPageSearchSection';
 
 const HomePage = () => {
 
@@ -21,7 +21,7 @@ const HomePage = () => {
       <NavbarSection />
       <HeroSection />
       <SearchSection/>
-      <p>hi</p>
+      <SearchPageSearchSection />
       <SwiperSection />
       <SpecializationSection />
       <MedicalSpecialistSection />

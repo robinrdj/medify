@@ -53,7 +53,7 @@ const SearchSection = () => {
 
   return (
     <div className="search">
-      {/* <div className="search__inputs">
+      <div className="search__inputs">
      <select value={state} onChange={handleStateChange} className="search__input__field" >
       <option value="">Select State</option>
         {states.map((item)=>{
@@ -92,8 +92,8 @@ const SearchSection = () => {
           <FaAmbulance size={40} color="#2AA8FF" />
           <p>Ambulance</p>
         </div>
-      </div> */}
-      changes have been made
+      </div>
+  
     </div>
   );
 };
